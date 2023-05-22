@@ -1,7 +1,7 @@
 function LongestWord(sen) {
-   
+    // Remove punctuation from the string
     const cleanedSen = sen.replace(/[^\w\s]/g, '');
-  
+    // Split the string into words
     const words = cleanedSen.split(' ');
   
     let longestWord = '';
